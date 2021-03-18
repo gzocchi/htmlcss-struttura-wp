@@ -1,5 +1,4 @@
 /* debug */
-
 /* debug */
 
 /* common */
@@ -9,8 +8,9 @@
   padding: 0;
 }
 .container {
-  width: 80%;
-  margin: 20px auto 10px;
+  height: 100vh;
+  width: 80vw;
+  margin: 2vh auto 1vh;
 }
 
 .clearfix::after {
@@ -21,18 +21,17 @@
 
 /* header */
 header > nav {
-  height: 150px;
+  height: 20vh;
   background-color: #e579e6;
 }
 header > section {
-  height: 500px;
-  margin-top: 20px;
+  height: 78vh;
+  margin-top: 2vh;
   background-color: #e1d67a;
 }
 
 /* main */
 main {
-  height: 600px;
   background-color: #0089fe;
 }
 main > * {
@@ -40,13 +39,13 @@ main > * {
 }
 main > div {
   float: left;
-  height: 100px;
+  height: 15vh;
   width: 100%;
 }
 main > aside {
-  height: 450px;
-  width: 20%;
-  margin: 20px 0;
+  height: 79vh;
+  width: 15vw;
+  margin: 3vh 0;
 }
 aside.sx {
   float: left;
@@ -56,15 +55,15 @@ aside.dx {
 }
 main > article {
   float: left;
-  height: 450px;
-  margin: 20px;
-  width: 55%;
+  height: 79vh;
+  width: 46vw;
+  margin: 3vh 2vw;
 }
 
 /* footer */
 footer {
-  height: 35px;
-  width: 80%;
+  height: 10vh;
+  width: 80vw;
   margin: 0 auto;
   background-color: #8801fe;
 }
