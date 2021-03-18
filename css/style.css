@@ -11,21 +11,29 @@
 
 /* header */
 header > nav {
+  height: 70px;
   background-color: #e579e6;
 }
 header > section {
+  height: 300px;
   background-color: #e1d67a;
 }
 
 /* main */
 main {
+  height: 400px;
   background-color: #0089fe;
 }
 main > * {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+  border: 1px solid black;
   background-color: #abcfe7;
 }
 
 /* footer */
 footer {
+  height: 35px;
   background-color: #8801fe;
 }
