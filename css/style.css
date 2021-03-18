@@ -8,3 +8,24 @@
   margin: 0;
   padding: 0;
 }
+
+/* header */
+header > nav {
+  background-color: #e579e6;
+}
+header > section {
+  background-color: #e1d67a;
+}
+
+/* main */
+main {
+  background-color: #0089fe;
+}
+main > * {
+  background-color: #abcfe7;
+}
+
+/* footer */
+footer {
+  background-color: #8801fe;
+}
