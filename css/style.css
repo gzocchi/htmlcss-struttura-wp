@@ -8,9 +8,9 @@
   padding: 0;
 }
 .container {
-  height: 100vh;
+  height: 80vh;
   width: 80vw;
-  margin: 2vh auto 1vh;
+  margin: 20px auto 10px;
 }
 
 .clearfix::after {
@@ -21,12 +21,12 @@
 
 /* header */
 header > nav {
-  height: 20vh;
+  height: 15vh;
   background-color: #e579e6;
 }
-header > section {
-  height: 78vh;
-  margin-top: 2vh;
+.banner {
+  height: calc(65vh - 20px);
+  margin-top: 20px;
   background-color: #e1d67a;
 }
 
@@ -37,27 +37,23 @@ main {
 main > * {
   background-color: #abcfe7;
 }
-main > div {
-  float: left;
-  height: 15vh;
+main > div.title {
+  height: 10vh;
   width: 100%;
 }
 main > aside {
-  height: 79vh;
-  width: 15vw;
-  margin: 3vh 0;
+  height: calc(70vh - 40px);
+  width: 25%;
+  margin: 20px 0;
 }
-aside.sx {
+.col {
   float: left;
 }
-aside.dx {
-  float: right;
-}
+
 main > article {
-  float: left;
-  height: 79vh;
-  width: 46vw;
-  margin: 3vh 2vw;
+  height: calc(70vh - 40px);
+  width: calc(50% - 40px);
+  margin: 20px;
 }
 
 /* footer */
